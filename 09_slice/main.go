@@ -6,7 +6,10 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/David-Zeng/goTraining/myFunctions"
+)
 
 func main() {
 	s := []int{1, 2, 3, 4, 5}
@@ -36,12 +39,8 @@ func main() {
 	cs := append(s[:3], s[4:]...)
 	fmt.Println(cs)
 
-	intSliceDel(s1, 3)
-	intSliceDel(s, 3)
+	myFunctions.IntSliceDelFunc(s1, 3)
+	myFunctions.IntSliceDelFunc(s, 3)
+
 }
 
-func intSliceDel(inSlice []int, i int) []int {
-	fmt.Printf("orig slice: %v\n", inSlice)
-	fmt.Printf("changed slice: %v\n", append(inSlice[:i], inSlice[i+1:]...))
-	return append(inSlice[:i], inSlice[i+1:]...)
-}
