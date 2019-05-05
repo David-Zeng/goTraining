@@ -12,7 +12,6 @@ func main() {
 
 	s := []int{42, 43, 44, 45, 45, 46, 47, 48, 49, 50, 51}
 
-
 	fmt.Println("@@@@@@@@@1")
 	fmt.Println(s)
 	fmt.Println(myFunctions.IntSliceElementExistFunc(s, 100))
@@ -33,18 +32,10 @@ func main() {
 	fmt.Println(s)
 	fmt.Println(myFunctions.IntSliceDeduplicateFunc(s))
 
+	fmt.Println("@@@@@@@@@4")
+	fmt.Println(myFunctions.IntSlicesDiffFunc(s, []int{43, 50}))
+
 }
 
 
 
-//func IntSlicesDiffFunc(inSlice1 []int, inSlice2 []int) []int {
-//	inSlice1 = myFunctions.IntSliceDeduplicateFunc(inSlice1)
-//	inSlice2 = myFunctions.IntSliceDeduplicateFunc(inSlice2)
-//
-//	for _, v := range inSlice1 {
-//		existBool, existSlice := myFunctions.IntSliceElementExistFunc(inSlice2, v)
-//		if existBool {
-//
-//		}
-//	}
-//}

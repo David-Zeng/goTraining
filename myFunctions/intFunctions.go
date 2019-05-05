@@ -83,3 +83,22 @@ func IntSliceDeduplicateFunc(inSlice []int) []int {
 	return inSlice
 }
 
+
+//
+func IntSlicesDiffFunc(inSlice1 []int, inSlice2 []int) []int {
+	inSlice1 = IntSliceDeduplicateFunc(inSlice1)
+	inSlice2 = IntSliceDeduplicateFunc(inSlice2)
+
+	var idxSlice []int
+	for i, v := range inSlice1 {
+		existBool, _ := IntSliceElementExistFunc(inSlice2, v)
+
+		if existBool {
+			idxSlice = append(idxSlice, i)
+		}
+	}
+
+	inSlice1 = IntSliceDelByPositionMultiFunc(inSlice1, idxSlice...)
+
+	return inSlice1
+}
