@@ -20,7 +20,6 @@ func doSomething() {
 	fmt.Println("do something")
 }
 
-
 // recursive
 // n! = n×(n-1)! where n >0
 func getFactorial(num int) int {
@@ -30,5 +29,3 @@ func getFactorial(num int) int {
 		return 1 // 1! == 1
 	}
 }
-
-

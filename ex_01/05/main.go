@@ -7,7 +7,7 @@
 package main
 
 import (
-"fmt"
+	"fmt"
 )
 
 type (
@@ -23,7 +23,6 @@ func main() {
 	fmt.Printf("%v %T\n", x, x)
 	x = 42
 	fmt.Printf("%v %T\n", x, x)
-
 
 	fmt.Printf("%v %T\n", y, y)
 	y = int(x)

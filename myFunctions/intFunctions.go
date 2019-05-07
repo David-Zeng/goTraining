@@ -17,11 +17,11 @@ func IntSliceDelFunc(inSlice []int, i int) []int {
 }
 
 //
-func IntSliceDelByPositionMultiFunc(inSlice []int,  idxs ...int) []int {
+func IntSliceDelByPositionMultiFunc(inSlice []int, idxs ...int) []int {
 	var idxSlice []int
 
 	for i, v := range idxs {
-		idxSlice = append(idxSlice, v - i)
+		idxSlice = append(idxSlice, v-i)
 	}
 	sort.Ints(idxSlice)
 
@@ -31,7 +31,6 @@ func IntSliceDelByPositionMultiFunc(inSlice []int,  idxs ...int) []int {
 
 	return inSlice
 }
-
 
 //
 func IntFindSliceElementPositionFunc(inSlice []int, toFindValue int) int {
@@ -69,7 +68,6 @@ func IntSliceElementExistFunc(inSlice []int, inValue int) (bool, []int) {
 	return valueExist, idxSlice
 }
 
-
 //
 func IntSliceDeduplicateFunc(inSlice []int) []int {
 	//fmt.Println("original slice", inSlice)
@@ -82,7 +80,6 @@ func IntSliceDeduplicateFunc(inSlice []int) []int {
 	}
 	return inSlice
 }
-
 
 //
 func IntSlicesDiffFunc(inSlice1 []int, inSlice2 []int) []int {

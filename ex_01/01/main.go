@@ -10,7 +10,6 @@ import (
 	"fmt"
 )
 
-
 func main() {
 
 	x := 42
@@ -22,5 +21,3 @@ func main() {
 	fmt.Printf("%v # %T\n", z, z)
 
 }
-
-

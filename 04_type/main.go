@@ -13,7 +13,7 @@ var (
 	x int
 	a float64
 
-	z = "David Z"
+	z    = "David Z"
 	str1 = `line1
 		    line2
 		    line3
@@ -66,7 +66,3 @@ func main() {
 	fmt.Printf("c type %T\n:", c[:])
 
 }
-
-
-
-

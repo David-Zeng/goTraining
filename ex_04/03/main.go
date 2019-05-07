@@ -32,5 +32,3 @@ func main() {
 	fmt.Println(myFunctions.IntSliceSliceWithLengthFunc(s, myFunctions.IntFindSliceElementPositionFunc(s, 43), 5))
 
 }
-
-

@@ -19,7 +19,6 @@ func main() {
 	fmt.Println(myFunctions.IntSliceElementExistFunc(s, 45))
 	fmt.Println(s)
 
-
 	fmt.Println("@@@@@@@@@2")
 	fmt.Println("remove slice by position testing:")
 	fmt.Println(s)
@@ -36,6 +35,3 @@ func main() {
 	fmt.Println(myFunctions.IntSlicesDiffFunc(s, []int{43, 50}))
 
 }
-
-
-

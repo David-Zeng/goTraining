@@ -43,4 +43,3 @@ func main() {
 	myFunctions.IntSliceDelFunc(s, 3)
 
 }
-
