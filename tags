@@ -1,0 +1,111 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/45968eff/
+IntFindSliceElementPositionFunc	myFunctions/intFunctions.go	/^func IntFindSliceElementPositionFunc(inSlice []int, toFindValue int) int {$/;"	f	package:myFunctions	typeref:typename:int
+IntSliceDeduplicateFunc	myFunctions/intFunctions.go	/^func IntSliceDeduplicateFunc(inSlice []int) []int {$/;"	f	package:myFunctions	typeref:typename:[]int
+IntSliceDelByPositionMultiFunc	myFunctions/intFunctions.go	/^func IntSliceDelByPositionMultiFunc(inSlice []int, idxs ...int) []int {$/;"	f	package:myFunctions	typeref:typename:[]int
+IntSliceDelFunc	myFunctions/intFunctions.go	/^func IntSliceDelFunc(inSlice []int, i int) []int {$/;"	f	package:myFunctions	typeref:typename:[]int
+IntSliceElementExistFunc	myFunctions/intFunctions.go	/^func IntSliceElementExistFunc(inSlice []int, inValue int) (bool, []int) {$/;"	f	package:myFunctions	typeref:typename:(bool, []int)
+IntSliceSliceWithLengthFunc	myFunctions/intFunctions.go	/^func IntSliceSliceWithLengthFunc(inSlice []int, startPosition int, length int) []int {$/;"	f	package:myFunctions	typeref:typename:[]int
+IntSlicesDiffFunc	myFunctions/intFunctions.go	/^func IntSlicesDiffFunc(inSlice1 []int, inSlice2 []int) []int {$/;"	f	package:myFunctions	typeref:typename:[]int
+_	ex_02/06/main.go	/^	_       = iota$/;"	c	package:main
+_3_variables	03_variables/main.go	/^package _3_variables$/;"	p
+a	04_type/main.go	/^	a float64$/;"	v	package:main
+a	06_constant/main.go	/^	a = 42$/;"	c	package:main
+b	04_type/main.go	/^	b hotdog$/;"	v	package:main
+b	06_constant/main.go	/^	b = 42.78$/;"	c	package:main
+c	04_type/main.go	/^	c [4]int$/;"	v	package:main
+c	06_constant/main.go	/^	c = "James Bond"$/;"	c	package:main
+d	06_constant/main.go	/^	d int     = 42$/;"	c	package:main
+doSomething	12_function1/main.go	/^func doSomething() {$/;"	f	package:main
+e	06_constant/main.go	/^	e float64 = 42.78$/;"	c	package:main
+f	06_constant/main.go	/^	f string  = "James Bond"$/;"	c	package:main
+getFactorial	12_function1/main.go	/^func getFactorial(num int) int {$/;"	f	package:main	typeref:typename:int
+goTraining	README.md	/^# goTraining$/;"	c
+hotdog	04_type/main.go	/^	hotdog int$/;"	t	package:main
+main	01_helloWorld/main.go	/^func main() {$/;"	f	package:main
+main	01_helloWorld/main.go	/^package main$/;"	p
+main	02_package/main.go	/^func main() {$/;"	f	package:main
+main	02_package/main.go	/^package main$/;"	p
+main	04_type/main.go	/^func main() {$/;"	f	package:main
+main	04_type/main.go	/^package main$/;"	p
+main	05_type2/main.go	/^func main() {$/;"	f	package:main
+main	05_type2/main.go	/^package main$/;"	p
+main	06_constant/main.go	/^func main() {$/;"	f	package:main
+main	06_constant/main.go	/^package main$/;"	p
+main	07_loop/main.go	/^func main() {$/;"	f	package:main
+main	07_loop/main.go	/^package main$/;"	p
+main	08_interface/main.go	/^func main() {$/;"	f	package:main
+main	08_interface/main.go	/^package main$/;"	p
+main	09_slice/main.go	/^func main() {$/;"	f	package:main
+main	09_slice/main.go	/^package main$/;"	p
+main	10_multiSlice/main.go	/^func main() {$/;"	f	package:main
+main	10_multiSlice/main.go	/^package main$/;"	p
+main	11_map/main.go	/^func main() {$/;"	f	package:main
+main	11_map/main.go	/^package main$/;"	p
+main	12_function1/main.go	/^func main() {$/;"	f	package:main
+main	12_function1/main.go	/^package main$/;"	p
+main	13_struct/main.go	/^func main() {$/;"	f	package:main
+main	13_struct/main.go	/^package main$/;"	p
+main	ex_01/01/main.go	/^func main() {$/;"	f	package:main
+main	ex_01/01/main.go	/^package main$/;"	p
+main	ex_01/02/main.go	/^func main() {$/;"	f	package:main
+main	ex_01/02/main.go	/^package main$/;"	p
+main	ex_01/03/main.go	/^func main() {$/;"	f	package:main
+main	ex_01/03/main.go	/^package main$/;"	p
+main	ex_01/04/main.go	/^func main() {$/;"	f	package:main
+main	ex_01/04/main.go	/^package main$/;"	p
+main	ex_01/05/main.go	/^func main() {$/;"	f	package:main
+main	ex_01/05/main.go	/^package main$/;"	p
+main	ex_02/01/main.go	/^func main() {$/;"	f	package:main
+main	ex_02/01/main.go	/^package main$/;"	p
+main	ex_02/02/main.go	/^func main() {$/;"	f	package:main
+main	ex_02/02/main.go	/^package main$/;"	p
+main	ex_02/04/main.go	/^func main() {$/;"	f	package:main
+main	ex_02/04/main.go	/^package main$/;"	p
+main	ex_02/06/main.go	/^func main() {$/;"	f	package:main
+main	ex_02/06/main.go	/^package main$/;"	p
+main	ex_03/01/main.go	/^func main() {$/;"	f	package:main
+main	ex_03/01/main.go	/^package main$/;"	p
+main	ex_03/02/main.go	/^func main() {$/;"	f	package:main
+main	ex_03/02/main.go	/^package main$/;"	p
+main	ex_04/01/main.go	/^func main() {$/;"	f	package:main
+main	ex_04/01/main.go	/^package main$/;"	p
+main	ex_04/02/main.go	/^func main() {$/;"	f	package:main
+main	ex_04/02/main.go	/^package main$/;"	p
+main	ex_04/03/main.go	/^func main() {$/;"	f	package:main
+main	ex_04/03/main.go	/^package main$/;"	p
+main	ex_04/05/main.go	/^func main() {$/;"	f	package:main
+main	ex_04/05/main.go	/^package main$/;"	p
+main	ex_04/06/main.go	/^func main() {$/;"	f	package:main
+main	ex_04/06/main.go	/^package main$/;"	p
+main	ex_04/07/main.go	/^func main() {$/;"	f	package:main
+main	ex_04/07/main.go	/^package main$/;"	p
+main	ex_04/08/main.go	/^func main() {$/;"	f	package:main
+main	ex_04/08/main.go	/^package main$/;"	p
+myFunctions	myFunctions/intFunctions.go	/^package myFunctions$/;"	p
+nextYr1	ex_02/06/main.go	/^	nextYr1 = iota + 2019$/;"	c	package:main
+nextYr2	ex_02/06/main.go	/^	nextYr2 = iota + 2019$/;"	c	package:main
+nextYr3	ex_02/06/main.go	/^	nextYr3 = iota + 2019$/;"	c	package:main
+nextYr4	ex_02/06/main.go	/^	nextYr4 = iota + 2019$/;"	c	package:main
+notebook	notebook/notebook.go	/^package notebook$/;"	p
+str1	04_type/main.go	/^	str1 = `line1$/;"	v	package:main
+sushi	ex_01/04/main.go	/^	sushi int$/;"	t	package:main
+sushi	ex_01/05/main.go	/^	sushi int$/;"	t	package:main
+switch_func	07_loop/main.go	/^func switch_func() {$/;"	f	package:main
+x	04_type/main.go	/^	x int$/;"	v	package:main
+x	ex_01/02/main.go	/^	x int    \/\/default value 0$/;"	v	package:main
+x	ex_01/03/main.go	/^	x int    = 42$/;"	v	package:main
+x	ex_01/04/main.go	/^	x sushi$/;"	v	package:main
+x	ex_01/05/main.go	/^	x sushi$/;"	v	package:main
+y	04_type/main.go	/^	y = 42$/;"	v	package:main
+y	ex_01/02/main.go	/^	y string \/\/default value ''$/;"	v	package:main
+y	ex_01/03/main.go	/^	y string = "James Bond"$/;"	v	package:main
+y	ex_01/05/main.go	/^	y int$/;"	v	package:main
+z	04_type/main.go	/^	z    = "David Z"$/;"	v	package:main
+z	ex_01/02/main.go	/^	z bool   \/\/default value false$/;"	v	package:main
+z	ex_01/03/main.go	/^	z bool   = true$/;"	v	package:main
