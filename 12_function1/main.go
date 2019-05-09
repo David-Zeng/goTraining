@@ -33,13 +33,6 @@ func IntSumFunc(nums ...int) int {
 	return sum
 }
 
-// greeting func
-func Greeting(prefix string, who ...string) {
-
-}
-
-Greet
-
 
 
 // recursive
@@ -50,5 +43,7 @@ func getFactorial(num int) int {
 	} else {
 		return 1 // 1! == 1
 	}
+
+
 }
 
