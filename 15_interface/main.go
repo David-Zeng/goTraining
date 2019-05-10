@@ -18,7 +18,7 @@ func (sa specialAgen) speak() {
 	fmt.Println("This is", sa.person.first, sa.person.last, "speaking")
 }
 
-func (p person) talk() {
+func (p person) speak() {
 	fmt.Println("This is", p.first, p.last, "talking")
 }
 
@@ -44,11 +44,13 @@ func main() {
 	}
 	sa2.speak()
 
-	sa2.person.talk()
+	sa2.person.speak()
 
 	fmt.Println(sa1.person.first)
 	fmt.Println(sa1.person.last)
 	fmt.Println(sa1.ltk)
+
+
 
 }
 
