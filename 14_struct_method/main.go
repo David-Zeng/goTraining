@@ -9,6 +9,8 @@ We create an interface using this syntax: “keyword identifier type” so for a
 If a TYPE has the required methods, which could be none (the empty interface denoted by interface{}),
 then that TYPE implicitly implements the interface and is also of that interface type.
 In Go, values can be of more than one type.
+
+
 */
 
 type person struct {

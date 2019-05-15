@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 package main
 
 import (
@@ -45,3 +46,6 @@ func main() {
 	info(s1)
 	info(c1)
 }
+=======
+package _5
+>>>>>>> Stashed changes

@@ -6,6 +6,7 @@ func main() {
 
 	fmt.Println("@@@@@@@@@@@@1")
 	fmt.Println(bar())
+	defer bar2()
 
 	fmt.Println("@@@@@@@@@@@@2")
 	fmt.Println("int... sum: ")
@@ -21,10 +22,16 @@ func main() {
 	si := []interface{}{1, 2, 3}
 	interfaceSumFunc(si...)
 
+
 }
 
 func bar() (int, string) {
 	return 1984, "Big Brother is Watching"
+}
+
+
+func bar2()  {
+	 fmt.Println("defered", 1984, "Big Brother is Watching")
 }
 
 func intSumFunc(ints ...int) int {
@@ -53,5 +60,10 @@ func interfaceSumFunc(is ...interface{}) int {
 	}
 	return 0
 }
+
+
+
+
+
 
 
