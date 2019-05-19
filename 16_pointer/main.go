@@ -1,7 +1,8 @@
 package main
 
 import (
-	"fmt"
+"fmt"
+	"github.com/David-Zeng/goTraining/myFunctions"
 	"math"
 )
 
@@ -17,7 +18,7 @@ func (s square) area() float64 {
 type circle struct {
 	r float64
 }
-func (c circle) area() float64 {
+func (c *circle) area() float64 {
 	return math.Pi * math.Pow(c.r, 2)
 }
 
@@ -43,5 +44,10 @@ func main() {
 	}
 
 	info(s1)
-	info(c1)
+
+	myFunctions.ObjectDescribe(c1)
+	//info(c1)
+	myFunctions.ObjectDescribe(&c1)
+	info(&c1)
+
 }
