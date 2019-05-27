@@ -30,7 +30,6 @@ func info(si shape)  {
 	fmt.Println(si.area())
 }
 
-
 func main() {
 	fmt.Println("square & circle area")
 

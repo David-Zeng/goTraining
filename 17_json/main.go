@@ -1,34 +1,27 @@
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"github.com/David-Zeng/goTraining/myFunctions"
+"encoding/json"
+"fmt"
+"github.com/David-Zeng/goTraining/myFunctions"
 )
 
-type person struct {
+type Person struct {
 	First string
 	Last  string
 	Age   int
 }
 
-type person2 struct {
-	First string `json:"First"`
-	Last  string `json:"Last"`
-	Age   int    `json:"Age"`
-}
-
 func main() {
-	fmt.Println("json")
 
-	fmt.Println("@@@@@@@@@@@@1")
-	p1 := person{
-		First: "jones",
-		Last:  "bond",
-		Age:   38,
+	fmt.Println("@@@@@@@@@@@@@1")
+	p1 := Person{
+		First: "James",
+		Last:  "Bond",
+		Age:   32,
 	}
 
-	p2 := person{
+	p2 := Person{
 		First: "Miss",
 		Last:  "Moneypenny",
 		Age:   27,
@@ -37,7 +30,7 @@ func main() {
 	myFunctions.ObjectDescribe(p1)
 	myFunctions.ObjectDescribe(p2)
 
-	persons := []person{p1, p2}
+	persons := []Person{p1, p2}
 	myFunctions.ObjectDescribe(persons)
 
 	fmt.Println("@@@@@@@@@@@@2")
@@ -48,11 +41,41 @@ func main() {
 
 	fmt.Println(string(bs))
 
-	fmt.Println("@@@@@@@@@@@@3")
-	var p3 []person2
+	people := []Person{p1, p2}
 
-	json.Unmarshal(bs, &p3)
+	fmt.Println(people)
 
-	myFunctions.ObjectDescribe(p3)
+	bs, err := json.Marshal(people)
+	myFunctions.ObjectDescribe(bs)
+
+	myFunctions.ObjectDescribe(err)
+
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(string(bs))
+
+	myFunctions.ObjectDescribe(string(bs))
+
+	fmt.Println("@@@@@@@@@@@@@2")
+	fmt.Println(string(91))
+	fmt.Println(string(123))
+	fmt.Println(string(123))
+
+
+	fmt.Println("@@@@@@@@@@@@@3")
+	jsonData := []byte(`{"Name":"Eve","Age":6,"Parents":["Alice","Bob"]}`)
+
+	var v interface{}
+	json.Unmarshal(jsonData, &v)
+	myFunctions.ObjectDescribe(v)
+
+	data := v.(map[string]interface{})
+	myFunctions.ObjectDescribe(data)
+
+	a, _ := json.Marshal(data)
+
+	myFunctions.ObjectDescribe(string(a))
 
 }
+
